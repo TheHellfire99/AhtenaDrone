@@ -1,0 +1,147 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Dancing Script', cursive; */
+#main_map{
+  height: 100vh; 
+  background-image: linear-gradient(to left, #fc00ff, #00dbde);
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+  height: 100vh; 
+  background-image: linear-gradient(#23074d, #cc5333);
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+  text-decoration: none; 
+}
+#home_page {
+  height: 100vh; 
+  background-image: linear-gradient(#23074d, #cc5333);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home_title {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.line {
+  height: 2px;
+  background-color: lightgray;
+  width: 80px;
+  margin: 0 auto;
+}
+.introduction {
+  height: 700px;
+  border-radius: 35px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.quote{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: white; 
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(75%, -50%);
+}
+.quoteTwo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: white; 
+  position: absolute; 
+  top: 50%;
+  right: 50%;
+  transform: translate(-60%, -50%);
+}
+.quoteThree{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: white; 
+  position: absolute; 
+  top: 15%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.quoteFour{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: white; 
+  position: absolute; 
+  top: 85%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.fa-arrow-alt-circle-down{
+  font-size: 45px; 
+  color: white;
+  position: absolute; 
+  top: 95%;
+  left: 50%;
+  transform: translate(50%, -50%); 
+}
+#about{
+  height: 100vh; 
+  background-image: linear-gradient(#23074d, #cc5333);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.personOne{
+  position: relative; 
+  top: 10%; 
+  text-align: center; 
+}
+.about{
+   height: 600px;
+  border-radius: 35px;
+  float: left; 
+  margin-left: 35px; 
+  position: absolute;
+  top: 50%;
+  right: 75%;
+  transform: translate(50%, 20%);
+}
+.para_about{
+  font-size: 25px; 
+  text-indent: 40px; 
+  width: 50%;
+  color: white; 
+  font-family: 'Open Sans', sans-serif;
+  float: right; 
+  padding-right: 100px; 
+  position: relative;
+  top: 10%; 
+}
+.maps{
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 35px; 
+  float: right; 
+  position: absolute;  
+  top: 180%;
+  left: 40%; 
+  transform: translate(50%, 10%);
+}
+#instructions {
+  position: absolute;
+  margin: 20px;
+  width: 25%;
+  top: 0;
+  bottom: 20%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: scroll;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.duration {
+  font-size: 2em;
+}
